@@ -3,7 +3,7 @@
 This a sample website to showcase my work and abilities. This work is focused on css that is why there is not much on the javascript side of things.
 This project uses scss.
 
-## [Live Preview]()
+## [Live Preview](https://echo-web.netlify.app/)
 
 ## Screenshots
 
