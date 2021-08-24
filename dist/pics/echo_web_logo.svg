@@ -1,0 +1,18 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 657.69 460.51">
+  <defs>
+    <style>.cls-1{fill:none;stroke:blue;stroke-width:3px;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{font-size:90px;fill:blue;stroke:#fff;}.cls-2,.cls-3,.cls-4{font-family:AgencyFB-Bold, Agency FB;font-weight:700;}.cls-3{font-size:48px;fill:#f15a24;}.cls-4{font-size:24px;fill:gray;}</style>
+  </defs>
+  <title>echo web logo</title>
+  <g id="wave">
+    <path class="cls-1" d="M159.5,43.5c-8.34,5-128.78,80.44-133,227-4.12,143,106,224.59,115,231" transform="translate(-24.89 -42.21)" />
+    <path class="cls-1" d="M195.5,85c-8.34,4.1-128.78,65.77-133,185.61-4.12,116.89,106,183.65,115,188.89" transform="translate(-24.89 -42.21)" />
+    <path class="cls-1" d="M234.5,106c-8.34,3.52-128.78,56.46-133,159.35-4.12,100.34,106,157.65,115,162.15" transform="translate(-24.89 -42.21)" />
+    <path class="cls-1" d="M281.5,133c-8.34,3-128.78,48.74-133,137.54-4.12,86.61,106,136.08,115,140" transform="translate(-24.89 -42.21)" />
+    <path class="cls-1" d="M348.5,154c-8.34,2.6-128.78,41.71-133,117.71-4.12,74.13,106,116.47,115,119.79" transform="translate(-24.89 -42.21)" />
+    <path class="cls-1" d="M364,171c-6,2.21-92.5,35.39-95.53,99.87-3,62.89,76.16,98.81,82.6,101.63" transform="translate(-24.89 -42.21)" />
+    <path class="cls-1" d="M378,192c-3.61,1.69-55.74,27.05-57.56,76.33-1.79,48.06,45.89,75.51,49.77,77.67" transform="translate(-24.89 -42.21)" />
+  </g>
+  <text class="cls-2" transform="translate(380.46 232.97)">echo</text>
+  <text class="cls-3" transform="translate(379.99 278.83)">web</text>
+  <text class="cls-4" transform="translate(380.02 333.28)">echoing you to the web.</text>
+</svg>

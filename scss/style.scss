@@ -1,0 +1,145 @@
+@import "config";
+@import "utilities";
+@import "buttons";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $light-color;
+  font-family: $font-stack;
+  line-height: 1.6;
+}
+
+.showcase {
+  @include set-background($primary-color);
+  height: 600px;
+  .logo {
+    span {
+      color: $secondary-color;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    li {
+      padding: 15px;
+
+      a {
+        transition: 500ms;
+      }
+    }
+
+    a:hover {
+      color: $secondary-color;
+    }
+  }
+
+  a {
+    color: set-text-color($primary-color);
+  }
+
+  &-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 50px;
+      line-height: 1.2;
+    }
+  }
+}
+
+#pricing {
+  text-align: center;
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2 {
+    display: inline-block;
+    font-size: 2rem;
+    background-color: $secondary-color;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 20px;
+    letter-spacing: 3px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.2rem;
+
+    li {
+      &::before {
+        content: "✅  ";
+      }
+    }
+  }
+}
+
+#about {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  margin: 1rem;
+  & > div {
+    box-shadow: 0px 11px 20px 0px lighten($secondary-color, 20%);
+    @include set-background($secondary-color);
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+}
+
+#contact {
+  margin: 1rem;
+  @include set-background($primary-color);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 11px 20px 0px lighten($primary-color, 20%);
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  text-align: center;
+}
+
+footer {
+  @include set-background($primary-color);
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+@import "mobile";

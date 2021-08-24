@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Echo Web</title>
+  </head>
+
+  <body>
+    <section class="showcase" id="home">
+      <div class="container">
+        <nav>
+          <h1 class="logo">Echo <span>web</span></h1>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+
+        <div class="showcase-content">
+          <div>
+            <h1>Let us echo you to the web.</h1>
+            <p class="my-2">
+              We are here to help you join the web. We echo your image to the
+              web.
+            </p>
+            <a href="#about" class="btn-primary">Learn More</a>
+            <a href="#contact" class="btn-secondary">Contact Us</a>
+          </div>
+          <img src="/pics/echo_web_logo.svg" alt="logo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h1>Our Prices</h1>
+      <div class="container">
+        <div class="center">
+          <div class="card">
+            <h1>It's your lucky day.</h1>
+            <h2>200 Birr</h2>
+            <h3>Contains the following.</h3>
+            <ul>
+              <li>1 to 3 pages.</li>
+              <li>3 day deadline.</li>
+              <li>Offline capability.</li>
+              <li>With any language you want.</li>
+              <li>Style update every 3 months.</li>
+              <li>Custom design for each customer.</li>
+              <li>Free hosting forever via netlify.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1>Who are we?</h1>
+      <div class="container">
+        <div class="row">
+          <div>
+            <img src="/pics/avatar.png" alt="ceo" class="thumbnail" />
+            <h4>Developer: Fraol Lemecha</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <div class="row">
+        <a href="www.facebook.com" class="btn-primary">facebook</a>
+        <a href="www.gmail.com" class="btn-primary">email</a>
+        <a href="sms:" class="btn-primary">sms</a>
+        <a href="tel:" class="btn-primary">call</a>
+      </div>
+    </section>
+
+    <footer>Copyright &copy; echo web 2020</footer>
+
+    <script src="/js/materialize.min.js"></script>
+
+    <script>
+      const ss = document.querySelectorAll("section");
+      M.ScrollSpy.init(ss, {});
+    </script>
+  </body>
+</html>
