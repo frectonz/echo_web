@@ -1,6 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/15344eba-99f1-4712-a537-8ea4099fb948/deploy-status)](https://app.netlify.com/sites/echo-web/deploys)
-
 # Echo Web Template
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/15344eba-99f1-4712-a537-8ea4099fb948/deploy-status)](https://app.netlify.com/sites/echo-web/deploys)
 
 This a sample website to showcase my work and abilities. This work is focused on css that is why there is not much on the javascript side of things.
 This project uses scss.

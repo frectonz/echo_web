@@ -2,7 +2,7 @@
   "name": "echo_web",
   "author": "fraol0912 <fraol0912@gmail.com>",
   "license": "MIT",
-  "private": "true",
+  "private": true,
   "devDependencies": {
     "concurrently": "^6.2.1",
     "live-server": "^1.2.1",
@@ -10,9 +10,9 @@
   },
   "scripts": {
     "clean": "rm -rf ./dist/css",
-    "build": "sass ./scss/style.scss ./dist/css/style.css",
     "live": "live-server ./dist",
-    "watch": "yarn build --watch",
-    "dev": "concurrently \"yarn watch\" \"yarn live\""
+    "watch": "pnpm build --watch",
+    "dev": "concurrently \"pnpm watch\" \"pnpm live\"",
+    "build": "sass ./scss/style.scss ./dist/css/style.css"
   }
 }
